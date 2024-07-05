@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "VoiceToText Extension",
+  "description": "A Chrome extension for speech-to-text conversion",
+  "version": "1.0.0",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "audiocapture"
+ ],
+  "host_permissions": [
+    "http://localhost:8000/",
+    "ws://localhost:8000/"
+
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "logo192.png",
+      "48": "logo192.png",
+      "128": "logo512.png"
+    }
+  }
+}
